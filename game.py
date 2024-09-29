@@ -46,7 +46,7 @@ while True:
     if platform.colliderect(cube):
         BALL_SPEED = -BALL_SPEED
     if BLOCK_Y <= 0 :
-        BALL_SPEED = -BALL_SPEED
+        BALL_SPEED = -BALL_SPEED 
     if BLOCK_Y + 100 >= SCREEN_HEIGHT :
         BALL_SPEED = -BALL_SPEED
 
